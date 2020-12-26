@@ -47,3 +47,16 @@ body {
   border: 1px solid black;
   background-image: url("./image/freedom.jpg");
 }
+#plans {
+  text-align: center;
+}
+.plan {
+  border: 1px solid black;
+  display: inline-block;
+  width: 30%;
+  margin: 8px;
+  padding: 16px;
+  text-align: center;
+  background-color: rgb(218, 192, 196);
+  vertical-align: middle;
+}
