@@ -10,9 +10,16 @@ body {
 
 .main-header {
   background-color: yellow;
+  padding: 10px;
+}
+.main-header > div > a {
+  text-decoration: none;
+  color: black;
 }
 .main-nav__item {
   display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 .main-nav__item a {
   color: black;
@@ -23,10 +30,20 @@ body {
 .main-nav__item a:active {
   color: white;
 }
-
+.highlighted-item a:hover,
+.highlighted-item a:active {
+  color: purple;
+}
 .main-header > div {
   display: inline-block;
 }
 .main-nav {
   display: inline-block;
+  width: calc(100% - 50px);
+  text-align: right;
+}
+#product-overview {
+  height: 700px;
+  border: 1px solid black;
+  background-image: url("./image/freedom.jpg");
 }
