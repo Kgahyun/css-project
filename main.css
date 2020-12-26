@@ -60,3 +60,26 @@ body {
   background-color: rgb(218, 192, 196);
   vertical-align: middle;
 }
+
+.highlighted-plan {
+  background-color: salmon;
+  color: white;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.plan__annotation {
+  background-color: white;
+  color: salmon;
+  border-radius: 10px;
+  margin: 20px;
+}
+.plan-features {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.plan-features > li {
+  margin: 10px;
+}
+.planname-margin {
+  margin: 20px;
+}
