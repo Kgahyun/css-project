@@ -1,0 +1,41 @@
+.main-contents {
+  padding-top: 32px;
+}
+.package {
+  width: 80%;
+  margin: 16px 0px;
+  border: 3px solid salmon;
+  padding: 10px 10px;
+}
+.package:hover,
+.package:active {
+  border-color: rosybrown;
+}
+.package a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+.package__subtitle {
+  color: #979797;
+}
+.package__info {
+  border: 3px solid rgb(103, 102, 167);
+  font-size: 20px;
+  color: olive;
+}
+
+#plus {
+  background-color: lightyellow;
+}
+#free {
+  background-color: lightgoldenrodyellow;
+  float: right;
+}
+.clearfix {
+  clear: both;
+}
+
+#premium {
+  background-color: gold;
+}
