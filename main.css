@@ -2,6 +2,15 @@
   height: 700px;
   border: 1px solid black;
   background-image: url("./image/freedom.jpg");
+  background-size: cover;
+  background-position: 0% 10%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#product-overview h1 {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
 }
 #plans {
   text-align: center;

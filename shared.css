@@ -11,11 +11,18 @@ body {
 .main-header {
   background-color: yellow;
   padding: 10px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 1;
 }
+
 .main-header > div > a {
   text-decoration: none;
   color: black;
 }
+
 .main-nav__item {
   display: inline-block;
   margin-right: 10px;

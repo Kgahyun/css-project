@@ -1,3 +1,13 @@
+.background {
+  background-image: url("../image/background.jpg");
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
 .main-contents {
   padding-top: 32px;
 }
@@ -24,10 +34,18 @@
   font-size: 20px;
   color: olive;
 }
-
 #plus {
   background-color: lightyellow;
+  position: relative;
 }
+.package__badge {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  background-color: white;
+  border-radius: 10px;
+}
+
 #free {
   background-color: lightgoldenrodyellow;
   float: right;
