@@ -20,27 +20,81 @@
     <header class="main-header">
       <div>
         <h1><a href="book.html">Philosophia</a></h1>
+      </div class="navigation-bar">
+        <nav class="main-nav">
+          <ul class="main-nav__items">
+            <li class="main-nav__item sidenav-left">동아리 정보</li>
+            <li class="main-nav__item sidenav-left">동아리 공간</li>
+            <li class="main-nav__item sidenav-left">함께 읽기</li>
+            <li class="main-nav__item sidenav-left">자료 나눔</li>
+            <li class="main-nav__item sidenav-right">후원하기</li>
+            <li class="main-nav__item sidenav-right">뉴스레터</li>
+          </ul>
+        </nav>
       </div>
-      <nav class="main-nav">
-        <ul class="main-nav__items">
-          <li class="main-nav__item sidenav-left">동아리 정보</li>
-          <li class="main-nav__item sidenav-left">동아리 공간</li>
-          <li class="main-nav__item sidenav-left">함께 읽기</li>
-          <li class="main-nav__item sidenav-left">자료 나눔</li>
-          <li class="main-nav__item sidenav-right">후원하기</li>
-          <li class="main-nav__item sidenav-right">뉴스레터</li>
-        </ul>
-      </nav>
     </header>
     <main class="main-page">
-      <section class="section-title1">
-        <h1>What to read</h1>
+      <section class="section-title1" id="title1-background">
+        <h1 class="read-introduction">What to read</h1>
+        <p class="read-introduction_detail">
+          독서동아리 회원들의 추천도서, 웹진 나비,<br />
+          공공도서관 사서추천도서를 소개합니다.
+        </p>
+        <div class="book1-image_container">
+          <img src="./image/showco.jpeg" alt="book1" class="book1-image" />
+        </div>
+        <div class="book2-image_container">
+          <img src="./image/almond.jpeg" alt="book2" class="book2-image" />
+        </div>
+        <div class="book3-image_container">
+          <img src="./image/summer.jpeg" alt="book3" class="book3-image" />
+        </div>
       </section>
-      <section class="section-title2">
-        <h1>Where to meet</h1>
+      <section class="section-title2" id="title2-background">
+        <h1 class="meet-introduction">Where to meet</h1>
+        <p class="meet-introduction_datail">
+          매주 날씨 및 사회적 상황을 고려하여<br />
+          동아리 회원들의 투표로 장소가 결정됩니다.
+        </p>
+        <div class="place1-image_container">
+          <img src="./image/park.jpg" alt="place1" class="place1-image" />
+          <p id="park"><i>앞산 공원</i></p>
+        </div>
+        <div class="place2-image_container">
+          <img
+            src="./image/university-library.jpg"
+            alt="place2"
+            class="place2-image"
+          />
+          <p id="library"><i>대학교 도서관</i></p>
+        </div>
+        <div class="place3-image_container">
+          <img
+            src="./image/coffee-shop.jpg"
+            alt="place3"
+            class="place3-image"
+          />
+          <p id="cafe"><i>카페</i></p>
+        </div>
       </section>
-      <section class="section-title3">
-        <h1>How to operate</h1>
+      <section class="section-title3" id="title3-background">
+        <h1 class="operation-instruction">How to operate</h1>
+        <div class="document-sharing">
+          <img src="" alt="document-sharing" class="document-icon" />
+          <p id="document"><i>자료 나눔</i></p>
+        </div>
+        <div class="book-reading">
+          <img src="" alt="book-reading" class="book-reading-icon" />
+          <p id="reading"><i>낭독회</i></p>
+        </div>
+        <div class="book-writing">
+          <img src="" alt="book-writing" class="book-writing-icon" />
+          <p id="writing"><i>글 연재</i></p>
+        </div>
+        <div class="writer-meeting">
+          <img src="" alt="writer-meeting" class="writer-meeting-icon" />
+          <p id="writers"><i>작가와의 만남</i></p>
+        </div>
       </section>
     </main>
   </body>

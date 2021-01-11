@@ -26,6 +26,11 @@
 .main-nav {
   display: inline-block;
 }
+.navigation-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 .sidenav-left {
   text-align: left;
 }
@@ -33,5 +38,179 @@
   border: none;
 }
 .main-page section h1 {
+  display: inline-block;
+}
+#title1-background {
+  height: 500px;
+  background-image: url("./image/coffee.jpg");
+  background-size: cover;
+  position: relative;
+}
+.read-introduction {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+.read-introduction_detail {
+  display: inline-block;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  margin-top: 50px;
+}
+.book1-image_container {
+  width: 200px;
+  position: absolute;
+  top: 20%;
+  left: 700px;
+}
+.book1-image {
+  max-width: 100%;
+}
+.book2-image_container {
+  width: 200px;
+  position: absolute;
+  top: 20%;
+  left: 950px;
+}
+.book2-image {
+  max-width: 100%;
+}
+.book3-image_container {
+  width: 200px;
+  position: absolute;
+  top: 20%;
+  left: 1200px;
+}
+.book3-image {
+  max-width: 100%;
+}
+#title2-background {
+  background-image: url("./image/coziness.webp");
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.meet-introduction {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+.meet-introduction_datail {
+  display: inline-block;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  margin-top: 30px;
+}
+.place1-image_container {
+  display: inline-block;
+  width: 300px;
+  height: 250px;
+  background-color: white;
+  position: absolute;
+  top: 18%;
+  left: 600px;
+}
+.place1-image {
+  max-width: 100%;
+}
+#park {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+.place2-image_container {
+  display: inline-block;
+  width: 300px;
+  height: 250px;
+  background-color: white;
+  position: absolute;
+  top: 400px;
+  left: 910px;
+}
+.place2-image {
+  max-width: 100%;
+}
+#library {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+.place3-image_container {
+  display: inline-block;
+  width: 300px;
+  height: 250px;
+  background-color: white;
+  position: absolute;
+  top: 18%;
+  left: 1220px;
+}
+
+.place3-image {
+  max-width: 100%;
+}
+#cafe {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+#title3-background {
+  background-image: url("./image/cozy.jpg");
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.operation-instruction {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+.document-sharing {
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+}
+#document {
+  display: inline-block;
+}
+.book-reading {
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+}
+#reading {
+  display: inline-block;
+}
+.book-writing {
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+}
+#writing {
+  display: inline-block;
+}
+.writer-meeting {
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+}
+#writer {
   display: inline-block;
 }

@@ -22,9 +22,7 @@
 .modal__actions {
   text-align: center;
 }
-.modal__action {
-  text-decoration: none;
-}
+
 #product-overview {
   height: 700px;
   border: 1px solid black;
