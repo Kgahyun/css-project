@@ -1,12 +1,52 @@
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  display: none;
+}
+.modal {
+  position: fixed;
+  top: 40%;
+  left: 40%;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  z-index: 3;
+  display: none;
+}
+.modal__actions {
+  text-align: center;
+}
+.modal__action {
+  text-decoration: none;
+}
 #product-overview {
   height: 700px;
   border: 1px solid black;
   background-image: url("./image/freedom.jpg");
   background-size: cover;
-  background-position: 0% 10%;
   background-repeat: no-repeat;
-  position: relative;
+  background-position: center;
+  background: #3a1c71; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffaf7b,
+    #d76d77,
+    #3a1c71
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffaf7b,
+    #d76d77,
+    #3a1c71
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
 #product-overview h1 {
   position: absolute;
   bottom: 5%;
@@ -69,6 +109,7 @@
   font-size: 20px;
 }
 .key-feature__image {
+  padding: 20px;
   width: 128px;
   height: 128px;
   border: 1px solid black;

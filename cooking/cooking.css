@@ -8,18 +8,19 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
 }
 .main-header {
-  border: 3px double white;
-  width: 200px;
-  height: 100px;
-  margin: 20px 42%;
+  margin-top: 50px;
+  margin-bottom: 20px;
   text-align: center;
 }
 .main-header > div {
+  font-size: 30px;
   display: inline-block;
+  text-align: center;
 }
 .main-header a {
   text-decoration: none;
   color: lightgreen;
+  border: 3px double white;
 }
 .main-nav {
   text-align: center;
@@ -40,22 +41,35 @@ body {
   color: lightpink;
 }
 .section-title1 {
-  padding: 100px;
+  height: 500px;
   background-image: url("./image2/salad.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 70%;
+  position: relative;
 }
 .section-title1 > h1 {
+  font-size: 25px;
   color: white;
   padding-top: 50px;
   text-align: left;
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
 }
 .section-title1 div {
   text-align: left;
 }
 #button1 {
-  color: white;
+  color: black;
   background-color: rgb(94, 89, 89);
-
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
   padding: 2px 10px;
+  background-color: wheat;
+  border: none;
+  border-radius: 20px;
 }
 .section-title2 {
   background-color: wheat;

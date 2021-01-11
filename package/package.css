@@ -6,11 +6,13 @@
   top: 0px;
   left: 0px;
   z-index: -1;
+  filter: grayscale(100%);
 }
 
 .main-contents {
   padding-top: 32px;
 }
+
 .package {
   width: 80%;
   margin: 16px 0px;

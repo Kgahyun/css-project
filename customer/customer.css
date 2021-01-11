@@ -1,0 +1,18 @@
+.main-contents {
+  padding-top: 30px;
+}
+
+.testimonial__image-container {
+  display: inline-block;
+  width: 60%;
+  vertical-align: middle;
+}
+.testimonial__image {
+  width: 100%;
+}
+
+.testimonial__info {
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+}
