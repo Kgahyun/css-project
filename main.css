@@ -50,14 +50,15 @@
   bottom: 5%;
   left: 5%;
 }
+
 #plans {
   text-align: center;
   margin: 20px;
 }
 .plan {
   border: 1px solid black;
-  display: inline-block;
-  width: 30%;
+
+  width: 100%;
   margin: 8px;
   padding: 16px;
   text-align: center;
@@ -100,8 +101,9 @@
   text-align: center;
 }
 .key-feature {
-  display: inline-block;
-  width: 30%;
+  /* display: inline-block;
+  width: 30%; */
+  width :100%;
   text-align: center;
   font-weight: bold;
   font-size: 20px;
@@ -113,4 +115,17 @@
   border: 1px solid black;
   border-radius: 50%;
   margin: 15px auto;
+}
+
+@media (min-width: 40rem) {
+  #product-overview h1 {
+    font-size: 4rem;
+  }
+  .plan {
+    display: inline-block;
+    width: 30%;
+  }
+  .key-feature {
+    display: inline-block;
+    width: 30%;
 }

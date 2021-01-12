@@ -96,12 +96,18 @@
   background-size: cover;
   position: relative;
 }
+
 .meet-introduction {
   color: white;
   font-size: 40px;
   position: absolute;
   top: 30%;
   left: 10%;
+}
+.places {
+  position: absolute;
+  top: 30%;
+  left: 50%;
 }
 .meet-introduction_datail {
   display: inline-block;
