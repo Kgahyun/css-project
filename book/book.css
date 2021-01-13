@@ -1,8 +1,14 @@
 * {
   font-family: "Nanum Myeongjo", serif;
 }
+
 .main-header {
   background-color: burlywood;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .main-header a {
@@ -12,9 +18,32 @@
   font-size: 40px;
   padding: 30px;
 }
+.toggle-button {
+  width: 3rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-left: 1rem;
+  vertical-align: middle;
+  z-index: 1;
+  vertical-align: middle;
+}
+.toggle-button:focus {
+  outline: none;
+}
+.toggle-button__bar {
+  width: 100%;
+  height: 0.2rem;
+  background-color: ivory;
+  display: block;
+  margin: 0.6rem 0;
+}
 .main-header div {
   display: inline-block;
 }
+
 .main-nav__item {
   display: inline-block;
   font-size: 20px;
@@ -22,25 +51,32 @@
   color: white;
   padding: 5px 10px;
   margin: 5px;
+  cursor: pointer;
+  vertical-align: middle;
 }
 .main-nav {
   display: inline-block;
+  vertical-align: middle;
 }
-.navigation-bar {
-  position: fixed;
-  top: 0;
-  left: 0;
+.nav-left:hover,
+.nav-left:active {
+  background-color: white;
+  color: burlywood;
 }
-.sidenav-left {
-  text-align: left;
+.nav-right:hover,
+.nav-right:active {
+  color: gray;
 }
-.main-nav .sidenav-right {
+.nav-right {
   border: none;
 }
+
 .main-page section h1 {
   display: inline-block;
 }
 #title1-background {
+  margin-top: 6rem;
+  width: 100vw;
   height: 500px;
   background-image: url("./image/coffee.jpg");
   background-size: cover;
@@ -107,7 +143,9 @@
 .places {
   position: absolute;
   top: 30%;
-  left: 50%;
+  left: 40%;
+  width: 55rem;
+  height: 30rem;
 }
 .meet-introduction_datail {
   display: inline-block;
@@ -120,12 +158,9 @@
 }
 .place1-image_container {
   display: inline-block;
-  width: 300px;
-  height: 250px;
+  width: 18rem;
+  height: 16rem;
   background-color: white;
-  position: absolute;
-  top: 18%;
-  left: 600px;
 }
 .place1-image {
   max-width: 100%;
@@ -139,12 +174,9 @@
 
 .place2-image_container {
   display: inline-block;
-  width: 300px;
-  height: 250px;
+  width: 18rem;
+  height: 16rem;
   background-color: white;
-  position: absolute;
-  top: 400px;
-  left: 910px;
 }
 .place2-image {
   max-width: 100%;
@@ -157,12 +189,9 @@
 }
 .place3-image_container {
   display: inline-block;
-  width: 300px;
-  height: 250px;
+  width: 18rem;
+  height: 16rem;
   background-color: white;
-  position: absolute;
-  top: 18%;
-  left: 1220px;
 }
 
 .place3-image {
@@ -174,6 +203,7 @@
   text-align: center;
   margin: 0;
 }
+
 #title3-background {
   background-image: url("./image/cozy.jpg");
   height: 700px;
@@ -188,18 +218,46 @@
   top: 30%;
   left: 10%;
 }
+.operation {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  width: 55rem;
+  height: 30rem;
+}
 .document-sharing {
-  color: white;
+  color: black;
   font-size: 20px;
   display: inline-block;
+  width: 20rem;
+  height: 10rem;
+  background-color: rgb(231, 231, 162);
+  vertical-align: middle;
 }
+.document-icon {
+  width: 50px;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
 #document {
   display: inline-block;
+  margin-left: 20px;
 }
 .book-reading {
-  color: white;
+  color: black;
   font-size: 20px;
   display: inline-block;
+  width: 20rem;
+  height: 10rem;
+  background-color: beige;
+}
+.book-reading-icon {
+  width: 50px;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 40px;
 }
 #reading {
   display: inline-block;
@@ -208,6 +266,15 @@
   color: white;
   font-size: 20px;
   display: inline-block;
+  width: 20rem;
+  height: 10rem;
+  background-color: darksalmon;
+}
+.book-writing-icon {
+  width: 50px;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 40px;
 }
 #writing {
   display: inline-block;
@@ -216,6 +283,15 @@
   color: white;
   font-size: 20px;
   display: inline-block;
+  width: 20rem;
+  height: 10rem;
+  background-color: skyblue;
+}
+.writer-meeting-icon {
+  width: 50px;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 40px;
 }
 #writer {
   display: inline-block;

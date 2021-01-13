@@ -57,13 +57,11 @@
 }
 .plan {
   border: 1px solid black;
-
   width: 100%;
   margin: 8px;
   padding: 16px;
   text-align: center;
   background-color: rgb(218, 192, 196);
-  vertical-align: middle;
 }
 
 .highlighted-plan {
@@ -103,7 +101,7 @@
 .key-feature {
   /* display: inline-block;
   width: 30%; */
-  width :100%;
+  width: 100%;
   text-align: center;
   font-weight: bold;
   font-size: 20px;
@@ -121,11 +119,24 @@
   #product-overview h1 {
     font-size: 4rem;
   }
+  #plans {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
   .plan {
-    display: inline-block;
     width: 30%;
   }
+  .key-feature__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
   .key-feature {
-    display: inline-block;
     width: 30%;
+  }
+  /* .key-feature { */
+
+  /* display: inline-block;
+    width: 30%; */
 }
