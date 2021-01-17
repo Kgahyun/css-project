@@ -18,17 +18,17 @@
   font-size: 40px;
   padding: 30px;
 }
+.nav-flex1 {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
 .toggle-button {
   width: 3rem;
   background-color: transparent;
   border: none;
   cursor: pointer;
-  padding-top: 0;
-  padding-bottom: 0;
-  margin-left: 1rem;
-  vertical-align: middle;
   z-index: 1;
-  vertical-align: middle;
 }
 .toggle-button:focus {
   outline: none;
@@ -39,9 +39,6 @@
   background-color: ivory;
   display: block;
   margin: 0.6rem 0;
-}
-.main-header div {
-  display: inline-block;
 }
 
 .main-nav__item {
@@ -54,14 +51,18 @@
   cursor: pointer;
   vertical-align: middle;
 }
-.main-nav {
-  display: inline-block;
-  vertical-align: middle;
+.nav-flex2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .nav-left:hover,
 .nav-left:active {
   background-color: white;
   color: burlywood;
+}
+.main-nav-right {
+  margin-right: 3rem;
 }
 .nav-right:hover,
 .nav-right:active {
@@ -75,7 +76,7 @@
   display: inline-block;
 }
 #title1-background {
-  margin-top: 6rem;
+  margin-top: 5.5rem;
   width: 100vw;
   height: 500px;
   background-image: url("./image/coffee.jpg");
@@ -219,80 +220,68 @@
   left: 10%;
 }
 .operation {
+  display: grid;
+  grid-template-columns: 20rem 20rem;
+  grid-template-rows: 10rem 10rem;
+  grid-gap: 1rem;
   position: absolute;
   top: 25%;
   left: 40%;
-  width: 55rem;
-  height: 30rem;
+  width: 41rem;
+  height: 21rem;
+}
+.grid__flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15%;
 }
 .document-sharing {
   color: black;
   font-size: 20px;
-  display: inline-block;
-  width: 20rem;
-  height: 10rem;
   background-color: rgb(231, 231, 162);
-  vertical-align: middle;
 }
 .document-icon {
   width: 50px;
   height: 50px;
-  margin-top: 50px;
-  margin-left: 40px;
 }
 
 #document {
-  display: inline-block;
   margin-left: 20px;
 }
 .book-reading {
   color: black;
   font-size: 20px;
-  display: inline-block;
-  width: 20rem;
-  height: 10rem;
   background-color: beige;
 }
 .book-reading-icon {
   width: 50px;
   height: 50px;
-  margin-top: 50px;
-  margin-left: 40px;
 }
 #reading {
-  display: inline-block;
+  margin-left: 20px;
 }
 .book-writing {
   color: white;
   font-size: 20px;
-  display: inline-block;
-  width: 20rem;
-  height: 10rem;
   background-color: darksalmon;
 }
 .book-writing-icon {
   width: 50px;
   height: 50px;
-  margin-top: 50px;
-  margin-left: 40px;
 }
 #writing {
-  display: inline-block;
+  margin-left: 20px;
 }
 .writer-meeting {
   color: white;
   font-size: 20px;
-  display: inline-block;
-  width: 20rem;
-  height: 10rem;
   background-color: skyblue;
 }
 .writer-meeting-icon {
   width: 50px;
   height: 50px;
-  margin-top: 50px;
-  margin-left: 40px;
 }
-#writer {
-  display: inline-block;
+#writers {
+  margin-left: 20px;
 }
